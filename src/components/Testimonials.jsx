@@ -31,7 +31,6 @@ const Testimonials = () => {
                         </div>
                         <p className='testimonial_quote'>{`${quote}`}</p>
                         <h5>{name}</h5>
-                        <small className='testimonial_title'>{job}</small>
                     </Card>
                 
                 <div className="testimonials_btn-container">

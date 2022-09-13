@@ -1,9 +1,13 @@
 import React from "react";
 import "./Trainers.css";
 import Header from "../../components/Header";
-import HeaderImage from "../../images/header_bg_5.jpg";
+import HeaderImage from "../../images/team.jpg";
 import { trainers } from "../../data";
 import { FaLinkedinIn } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
+import { FaTwitter} from "react-icons/fa";
+
+
 import Trainer from "../../components/Trainer";
 
 
@@ -11,8 +15,7 @@ const Trainers = () => {
   return (
     <>
       <Header title="Our Trainers" image={HeaderImage}>
-        lorem iusto nuquam unde laboriosam experdita accusan est aut
-        molestianfuit suscipt quad
+      Talent wins games, but teamwork and intelligence win championships.
       </Header>
       <section className="trainers">
         <div className="container trainers_container">
@@ -21,11 +24,11 @@ const Trainers = () => {
               [
                 {icon:<FaLinkedinIn/>, link:socials[3]},
 
-                {icon:<FaLinkedinIn/>, link:socials[3]},
+                {icon:<FaFacebook/>, link:socials[3]},
 
-                {icon:<FaLinkedinIn/>, link:socials[3]},
+                {icon:<FaTwitter/>, link:socials[3]},
 
-                {icon:<FaLinkedinIn/>, link:socials[3]},
+                
 
 
               ]

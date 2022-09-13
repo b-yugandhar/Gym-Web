@@ -1,6 +1,6 @@
 import React from 'react'
 import './Plans.css'
-import HeaderImage from '../../images/header_bg_4.jpg'
+import HeaderImage from '../../images/pri.jpg'
 import Header from '../../components/Header'
 import Card from '../../UI/Card'
 import {plans} from '../../data'
@@ -10,8 +10,8 @@ import {plans} from '../../data'
 const Plans = () => {
   return (
     <div>
-        <Header title= "Gallery" image={HeaderImage}>
-      lorem perspiciatis aasperiss and this is tto inorl you atha the prices are reasonable
+        <Header title= "Our Plans" image={HeaderImage}>
+      we provide various plans with reasonable prices
       </Header>
     <section className="plans">
   <div className="container plans_container">

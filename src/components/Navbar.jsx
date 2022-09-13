@@ -17,7 +17,7 @@ const Navbar = () => {
     <nav>
         <div className="container nav_container">
             <Link to='/'onClick={!handlebtn} className='logo'>
-                <img src={Logo} alt="" />
+                <h2>CalcTechologies</h2>
             </Link>
             <ul className={isNavShowing ?"nav_links show_nav" :"nav_links  hide_nav"}>
                   {

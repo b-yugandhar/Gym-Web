@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "../images/values.jpg";
+import Image from "../images/proimg.jpg";
 import SectionHead from "./SectionHead";
 import { AiFillCaretRight } from "react-icons/ai";
 import { values } from "../data";
@@ -15,10 +15,7 @@ const Values = () => {
         <div className="values_right">
           <SectionHead icon={<AiFillCaretRight />} title="Values" />
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Doloribus aliquid laboriosam ipsum nulla voluptas, et, culpa ut,
-              mollitia veniam magnam dolor eum voluptatibus nisi minima impedit
-              repellendus a nemo natus.
+              We provide best value for our customers
             </p>
 
            <div className="values_wrapper">

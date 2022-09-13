@@ -7,11 +7,12 @@ import { Link } from 'react-router-dom'
 import {AiFillCaretRight} from 'react-icons/ai'
 
 
+
 const Programs = () => {
   return (
     <section className='programs'>
         <div className="container programs_container">
-            <SectionHead icon={<FaCrown/>} title="Program"/>
+            <SectionHead icon={<FaCrown/>} title="Services"/>
         <div className="programs_wrapper">
             {
                 programs.map(({id,icon,title,info,path})=>{

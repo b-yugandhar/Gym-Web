@@ -1,4 +1,11 @@
 import {SiOpenaigym} from 'react-icons/si'
+import {GiArtificialIntelligence} from 'react-icons/gi'
+import {BsCodeSlash} from 'react-icons/bs'
+import {BsClipboardData} from 'react-icons/bs'
+import {DiDigitalOcean} from 'react-icons/di'
+import {BsLaptop} from 'react-icons/bs'
+import {AiFillInstagram} from 'react-icons/ai'
+
 
 
 
@@ -11,16 +18,13 @@ export const links = [
         name: "About",
         path: '/about'
     },
+   
+    // {
+    //     name: "Plans",
+    //     path: '/plans'
+    // },
     {
-        name: "Gallery",
-        path: '/gallery'
-    },
-    {
-        name: "Plans",
-        path: '/plans'
-    },
-    {
-        name: "Trainers",
+        name: "Team",
         path: '/trainers'
     },
     {
@@ -38,31 +42,45 @@ export const links = [
 export const programs = [
     {
         id: 1,
-        icon: <SiOpenaigym/>,
-        title: "Program One",
-        info: "This is the day that the lord has made. We will rejoice!",
+        icon: <BsCodeSlash/>,
+        title: "Web Development",
+        info: "We love creative and design with passion of building epic web experiences to blow people's minds..",
         path: "/programs/111"
     },
     {
         id: 2,
-        icon: <SiOpenaigym/>,
-        title: "Program Two",
-        info: "This is the day that the lord has made. We will rejoice!",
+        icon: <BsClipboardData/>,
+        title: "Data Engineering",
+        info: "Things get done only if the data we gather can inform and inspire those in a position to make a difference.",
         path: "/programs/222"
     },
     {
         id: 3,
-        icon: <SiOpenaigym/>,
-        title: "Program Three",
-        info: "This is the day that the lord has made. We will rejoice!",
+        icon: <GiArtificialIntelligence/>,
+        title: "Artificial Intelligence",
+        info: "AI can enable humans to focus on parts of their role that add the most value.",
         path: "/programs/333"
     },
     {
         id: 4,
         icon: <SiOpenaigym/>,
-        title: "Program Four",
-        info: "This is the day that the lord has made. We will rejoice!",
+        title: "Support Applications",
+        info: "The important thing about outsourcing or global sourcing is that it becomes a very powerful tool to leverage talent, improve productivity",
         path: "/programs/444"
+    },
+    {
+        id: 5,
+        icon: <DiDigitalOcean/>,
+        title: "Digital Marketing",
+        info: "Going viral is not an outcome it's a happening, sometimes it happens sometimes it doesn't, just remember, fans are vanity and sales are sanity.",
+        path: "/programs/555"
+    },
+    {
+        id: 6,
+        icon: <BsLaptop/>,
+        title: "Software Development",
+        info: "The task of the software development team is to engineer the illusion of simplicity.",
+        path: "/programs/666"
     }
 ]
 
@@ -111,33 +129,33 @@ export const values = [
 export const faqs = [
     {
         id: 1,
-        question: "How often should I exercise?",
-        answer: "Consectetur adipisicing elit. Non ipsa dolorem, rem consequatur eum omnis ex, fuga temporibus qui nesciunt odio aliquam commodi culpa inventore ut similique repellendus perferendis sint!"
+        question: "Question 1?",
+        answer: "Answer 1"
     },
     {
         id: 2,
-        question: "What time of day is best to work out?",
-        answer: "Distinctio nihil blanditiis accusantium atque, quo maxime inventore eum! Cum dolorem quibusdam amet et qui. Eos, omnis beatae? Quas, est at! Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit."
+        question: "Question 2?",
+        answer: "Answer 2."
     },
     {
         id: 3,
-        question: "How long should my workouts be?",
-        answer: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content."
+        question: "Question 3?",
+        answer: "Answer 3"
     },
     {
         id: 4,
-        question: "Do I need to warm up before my workouts?",
-        answer: "Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit, consequatur quibusdam dignissimos cum labore possimus placeat consectetur nisi cupiditate? Qui totam est omnis dolor nobis quisquam veritatis a!"
+        question: "Question 4?",
+        answer: "Answer 4"
     },
     {
         id: 5,
-        question: "Should I do strength training, cardio or both?",
-        answer: "Maiores fuga, cum praesentium esse laudantium! Distinctio nihil blanditiis accusantium atque, quo maxime inventore eum! Cum dolorem quibusdam amet et qui."
+        question: "Question 5",
+        answer: "Answer 5"
     },
     {
         id: 6,
-        question: "Should I lift weights for strength training?",
-        answer: "Quas, est at! Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit, consequatur quibusdam dignissimos cum labore possimus placeat consectetur nisi cupiditate."
+        question: "Question 6?",
+        answer: "Answer 6"
     }
 ]
 
@@ -151,39 +169,26 @@ export const faqs = [
 export const testimonials = [
     {
         id: 1,
-        name: "Diana Ayi",
-        quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
+        name: "Steven Archer",
+        quote: "This is my second time hiring Calctechnologies. I want to thank Pavan for doing a great job creating my website. I personally endorse them to anymore seeking assistance with creating a website. I will hire them again with my next project :) Again gentlemen, thanks for all your help making my website come to life!.",
         job: "Student",
-        avatar: require("./images/avatar1.jpg")
+        avatar: require("./images/p1.png")
     },
     {
         id: 2,
-        name: "Daniel Vinyo",
-        quote: "Harum quaerat hic consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum this and that odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
+        name: "Raj Kumar",
+        quote: "Putting together a website is a task, finding the right individual or company is even more complex. I did my search around looking for this particular company that has the ability to create, design and optimized my web site. Thanks God I met calctechnologies, not only they have great taste in design but they can guide you through the process and beyond.",
         job: "Software Egineer",
-        avatar: require("./images/avatar2.jpg")
+        avatar: require("./images/p2.jpg")
     },
     {
         id: 3,
-        name: "Edem Quist",
-        quote: "Quaerat hic praesentium consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
+        name: "Robert Din",
+        quote: "Calctechnologies did a great job of not only creating our website how we wanted it to be, but also gave us great insight on how to reach potential viewers. Their proven experience and excellence is the reason why our company would recommend calctechnologies to anyone who is looking to create a customized website..",
         job: "University Lecturer",
-        avatar: require("./images/avatar3.jpg")
+        avatar: require("./images/p3.png")
     },
-    {
-        id: 4,
-        name: "Grace Lavoe",
-        quote: "Cupiditate deleniti sint consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
-        job: "Talking Parrot",
-        avatar: require("./images/avatar4.jpg")
-    },
-    {
-        id: 5,
-        name: "Nana Yaa Dankwa",
-        quote: "Maxime minima cumque sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
-        job: "Pharmacist",
-        avatar: require("./images/avatar5.jpg")
-    }
+   
 ]
 
 
@@ -266,55 +271,38 @@ export const plans = [
 
 
 
-const Trainer1 = require('./images/trainer1.jpg')
-const Trainer2 = require('./images/trainer2.jpg')
-const Trainer3 = require('./images/trainer3.jpg')
-const Trainer4 = require('./images/trainer4.jpg')
-const Trainer5 = require('./images/trainer5.jpg')
-const Trainer6 = require('./images/trainer6.jpg')
+const Trainer1 = require('./images/Dwarkaz.jpg')
+const Trainer2 = require('./images/pavan5.jpg')
+const Trainer3 = require('./images/bharat.jpeg')
+
 
 
 export const trainers = [
     {
         id: 1,
         image: Trainer1,
-        name: 'John Doe',
-        job: 'Aerobic Trainer',
+        name: 'Pavan Kumar',
+        job: 'CEO',
+        icon:'AiFillInstagram',
         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
     },
     {
         id: 2,
         image: Trainer2,
-        name: 'Daniel vinyo',
-        job: 'Speed Trainer',
+        name: 'Pavan Kumar',
+        job: 'Co-Founder',
+        icon:'AiFillInstagram',
+
         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
     },
     {
         id: 3,
         image: Trainer3,
-        name: 'Edem Quist',
-        job: 'Flexibility Trainer',
+        name: 'Pavan Kumar',
+        job: 'Marketing Manger',
+        icon:'AiFillInstagram',
+
         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
     },
-    {
-        id: 4,
-        image: Trainer4,
-        name: 'Shatta Wale',
-        job: 'Body Composition Trainer',
-        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
-    },
-    {
-        id: 5,
-        image: Trainer5,
-        name: 'Diana Ayi',
-        job: 'Circuit Trainer',
-        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
-    },
-    {
-        id: 6,
-        image: Trainer6,
-        name: 'Wayne Carter',
-        job: 'Physical Intelligence Trainer',
-        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
-    }
+
 ]

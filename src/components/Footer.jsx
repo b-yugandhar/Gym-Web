@@ -15,9 +15,9 @@ const Footer = () => {
         <div className="container footer_container">
             <article>
                 <Link to='/' className='logo'>
-                    <img src={Logo} alt="footer logo" />
+                    <h3>CalcTechnologies</h3>
                 </Link>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem nulla blanditiis dolore, vero expedita maxime dicta suscipit neque, laudantium repudiandae fugiat quod ut ad fuga laborum quasi reiciendis similique! Architecto.</p>
+                <p>A company that aims to provide quality services with value</p>
                 <div className="footer_socials">
                     <a href="#" target='_blank' rel='noreferrer noopener'><FaLinkedin/></a>
                     <a href="#" target='_blank' rel='noreferrer noopener'><FaFacebook/></a>
@@ -52,7 +52,7 @@ const Footer = () => {
 
             </article>
             <div className="footer_copyright">
-                <small>2022 EGATOR TUTORIALS &copy; All RIGHTS RESERVED </small>
+                <small>2022 ClacTechnologies &copy; All RIGHTS RESERVED </small>
             </div>
         </div>
     </footer>

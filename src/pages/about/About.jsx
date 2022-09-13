@@ -1,21 +1,24 @@
 import React from 'react'
 import './About.css'
 import Header from '../../components/Header'
-import HeaderImage from '../../images/header_bg_1.jpg'
+import HeaderImage from '../../images/ab.jpg'
 import StoryImage from '../../images/about1.jpg'
 import VisionImage from '../../images/about2.jpg'
 import MissionImage from '../../images/about3.jpg'
+import pro from '../../images/p.jpg'
+
 
 const About = () => {
   return (
     <div>
       <Header title= "About Us" image={HeaderImage}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore vel impedit autem atque? Quidem alias hic distinctio recusandae fugit exercitationem?
+      Our comprehensive technological solutions help industry <br />{" "}
+            leading companies and individuals achieve greater success.
       </Header>
       <section className="about_story">
         <div className="container about_story-container">
         <div className="about_section-image">
-            <img src={StoryImage} alt="" />
+            <img src={pro} alt="" />
           </div>
           <div className="about_section-content">
             <h1>Our Story</h1>
@@ -38,7 +41,7 @@ const About = () => {
 
           </div>
           <div className="about_section-image">
-            <img src={VisionImage} alt="" />
+            <img src={pro} alt="" />
           </div>
         </div>
       </section>
@@ -46,7 +49,7 @@ const About = () => {
       <section className="about_mission">
         <div className="container about_mission-container">
         <div className="about_section-image">
-            <img src={MissionImage} alt="" />
+            <img src={pro} alt="" />
           </div>
           <div className="about_section-content">
             <h1>Our Mission</h1>
